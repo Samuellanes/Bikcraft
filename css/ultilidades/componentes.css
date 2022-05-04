@@ -60,3 +60,22 @@
 .link:hover{
    color: var(--cor-0); 
 }
+
+
+/* tirulo internos*/
+.titulo-bg{
+    background-color: black ;
+    padding-top: 60px;
+    background-color: black;
+}
+
+.titulo p{
+    margin-bottom: 4px;
+}
+
+@media (max-width:800px){
+     .titulo{
+         padding-top: 40px;
+         padding-bottom: 40px;
+     }
+}
